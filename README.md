@@ -1,35 +1,35 @@
-# SQL-Relational-Data-Analysis
-I built this project while learning SQL. It contains practice with joins, grouping, and aggregation using a simple customer–order–payment database. The goal was to understand how real data is connected and how SQL can be used to get useful insights from it.
+# SQL Relational Data Analysis
 
 ## About this project
-This is a simple SQL practice project I built while learning database concepts. It helped me understand how real-world data is connected using relationships between tables.
+I built this project while learning SQL to understand how relational databases work in practice. It focuses on connecting multiple tables and extracting meaningful information using queries.
 
 ---
 
-## What I worked on
-I used three tables:
+## Database Structure
+The project uses three related tables:
+
 - Customer
 - Orders
 - Payment
 
-These represent a simple business system where customers place orders and make payments.
+These tables represent a simple business system where customers place orders and make payments.
 
 ---
 
 ## What I practiced
-- Joining tables using INNER JOIN and LEFT JOIN
-- Counting records using COUNT()
-- Calculating totals using SUM()
-- Grouping data using GROUP BY
-- Filtering grouped results using HAVING
-- Finding missing relationships using NULL checks
+- INNER JOIN and LEFT JOIN for combining tables  
+- COUNT() for counting records  
+- SUM() for calculating totals  
+- GROUP BY for grouping data  
+- HAVING for filtering grouped results  
+- Handling missing relationships using NULL checks  
 
 ---
 
 ## What I learned
-This project helped me understand how SQL is used to turn raw data into meaningful information, like customer activity and spending patterns.
+This project helped me understand how SQL turns raw relational data into useful insights like customer activity, order frequency, and total spending.
 
 ---
 
 ## Note
-This project is for learning purposes and is not production-level code.
+This is a learning project created for practice and is not production-level code.
